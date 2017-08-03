@@ -15,6 +15,7 @@
 		E2CF7C7F1F2EDFF100962F1D /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF7C7E1F2EDFF100962F1D /* BorderButton.swift */; };
 		E2CF7C831F32CE6600962F1D /* LeagueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF7C821F32CE6600962F1D /* LeagueViewController.swift */; };
 		E2CF7C851F32CE7A00962F1D /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF7C841F32CE7A00962F1D /* SkillViewController.swift */; };
+		E2CF7C871F32D95F00962F1D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF7C861F32D95F00962F1D /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E2CF7C7E1F2EDFF100962F1D /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		E2CF7C821F32CE6600962F1D /* LeagueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueViewController.swift; sourceTree = "<group>"; };
 		E2CF7C841F32CE7A00962F1D /* SkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
+		E2CF7C861F32D95F00962F1D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		E2CF7C811F32CD8600962F1D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E2CF7C861F32D95F00962F1D /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				E2CF7C6C1F2ECAC900962F1D /* AppDelegate.swift in Sources */,
 				E2CF7C851F32CE7A00962F1D /* SkillViewController.swift in Sources */,
 				E2CF7C7F1F2EDFF100962F1D /* BorderButton.swift in Sources */,
+				E2CF7C871F32D95F00962F1D /* Player.swift in Sources */,
 				E2CF7C831F32CE6600962F1D /* LeagueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +356,7 @@
 				E2CF7C7C1F2ECAC900962F1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

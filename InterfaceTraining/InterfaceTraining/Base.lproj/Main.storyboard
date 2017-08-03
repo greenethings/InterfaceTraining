@@ -142,6 +142,9 @@
                                         <state key="normal" title="Mens">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onMensTapped:" destination="1cP-CK-kdb" eventType="touchUpInside" id="esO-7x-jgL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lum-bI-ovy" customClass="BorderButton" customModule="InterfaceTraining" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="80" width="343" height="50"/>
@@ -153,6 +156,9 @@
                                         <state key="normal" title="Womens">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onWomensTapped:" destination="1cP-CK-kdb" eventType="touchUpInside" id="Abs-7s-ZK3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NL5-fY-kMI" customClass="BorderButton" customModule="InterfaceTraining" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="160" width="343" height="50"/>
@@ -164,10 +170,13 @@
                                         <state key="normal" title="Co-ed">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onCoedTapped:" destination="1cP-CK-kdb" eventType="touchUpInside" id="bbL-rv-oou"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gi8-zH-L8S" customClass="BorderButton" customModule="InterfaceTraining" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gi8-zH-L8S" customClass="BorderButton" customModule="InterfaceTraining" customModuleProvider="target">
                                 <rect key="frame" x="16" y="597" width="343" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.4043771404" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -214,6 +223,7 @@
                         <viewLayoutGuide key="safeArea" id="acB-x7-GL3"/>
                     </view>
                     <connections>
+                        <outlet property="nextButton" destination="gi8-zH-L8S" id="mAz-Bn-IrY"/>
                         <segue destination="EPd-Tn-Pvq" kind="show" identifier="skillViewControllerSegue" id="PVJ-OX-fCa"/>
                     </connections>
                 </viewController>
