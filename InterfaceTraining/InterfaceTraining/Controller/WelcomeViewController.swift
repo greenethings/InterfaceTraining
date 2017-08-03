@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeViewController: UIViewController {
 
     @IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
@@ -20,10 +20,9 @@ class ViewController: UIViewController {
         //Programatically set bg
         //bgImg.frame = view.frame;
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func unwindFromLeagueViewController(unwindSegue: UIStoryboardSegue) {
+        
     }
 
 
